@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C34A4B432069B52100B83029 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34A4B422069B52100B83029 /* AppDelegate.swift */; };
+		C34A4B452069B52100B83029 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34A4B442069B52100B83029 /* ViewController.swift */; };
+		C34A4B482069B52100B83029 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C34A4B462069B52100B83029 /* Main.storyboard */; };
+		C34A4B4A2069B52100B83029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C34A4B492069B52100B83029 /* Assets.xcassets */; };
+		C34A4B4D2069B52100B83029 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C34A4B4B2069B52100B83029 /* LaunchScreen.storyboard */; };
+		C34A4B582069B52100B83029 /* busLocatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34A4B572069B52100B83029 /* busLocatorTests.swift */; };
+		C34A4B632069B52200B83029 /* busLocatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34A4B622069B52200B83029 /* busLocatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C34A4B542069B52100B83029 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C34A4B372069B52100B83029 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C34A4B3E2069B52100B83029;
+			remoteInfo = busLocator;
+		};
+		C34A4B5F2069B52100B83029 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C34A4B372069B52100B83029 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C34A4B3E2069B52100B83029;
+			remoteInfo = busLocator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C34A4B3F2069B52100B83029 /* busLocator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = busLocator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C34A4B422069B52100B83029 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C34A4B442069B52100B83029 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C34A4B472069B52100B83029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C34A4B492069B52100B83029 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C34A4B4C2069B52100B83029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C34A4B4E2069B52100B83029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C34A4B532069B52100B83029 /* busLocatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = busLocatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C34A4B572069B52100B83029 /* busLocatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = busLocatorTests.swift; sourceTree = "<group>"; };
+		C34A4B592069B52100B83029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C34A4B5E2069B52100B83029 /* busLocatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = busLocatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C34A4B622069B52200B83029 /* busLocatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = busLocatorUITests.swift; sourceTree = "<group>"; };
+		C34A4B642069B52200B83029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C34A4B3C2069B52100B83029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34A4B502069B52100B83029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34A4B5B2069B52100B83029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C34A4B362069B52100B83029 = {
+			isa = PBXGroup;
+			children = (
+				C34A4B412069B52100B83029 /* busLocator */,
+				C34A4B562069B52100B83029 /* busLocatorTests */,
+				C34A4B612069B52200B83029 /* busLocatorUITests */,
+				C34A4B402069B52100B83029 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C34A4B402069B52100B83029 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C34A4B3F2069B52100B83029 /* busLocator.app */,
+				C34A4B532069B52100B83029 /* busLocatorTests.xctest */,
+				C34A4B5E2069B52100B83029 /* busLocatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C34A4B412069B52100B83029 /* busLocator */ = {
+			isa = PBXGroup;
+			children = (
+				C34A4B422069B52100B83029 /* AppDelegate.swift */,
+				C34A4B442069B52100B83029 /* ViewController.swift */,
+				C34A4B462069B52100B83029 /* Main.storyboard */,
+				C34A4B492069B52100B83029 /* Assets.xcassets */,
+				C34A4B4B2069B52100B83029 /* LaunchScreen.storyboard */,
+				C34A4B4E2069B52100B83029 /* Info.plist */,
+			);
+			path = busLocator;
+			sourceTree = "<group>";
+		};
+		C34A4B562069B52100B83029 /* busLocatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				C34A4B572069B52100B83029 /* busLocatorTests.swift */,
+				C34A4B592069B52100B83029 /* Info.plist */,
+			);
+			path = busLocatorTests;
+			sourceTree = "<group>";
+		};
+		C34A4B612069B52200B83029 /* busLocatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C34A4B622069B52200B83029 /* busLocatorUITests.swift */,
+				C34A4B642069B52200B83029 /* Info.plist */,
+			);
+			path = busLocatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C34A4B3E2069B52100B83029 /* busLocator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C34A4B672069B52200B83029 /* Build configuration list for PBXNativeTarget "busLocator" */;
+			buildPhases = (
+				C34A4B3B2069B52100B83029 /* Sources */,
+				C34A4B3C2069B52100B83029 /* Frameworks */,
+				C34A4B3D2069B52100B83029 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = busLocator;
+			productName = busLocator;
+			productReference = C34A4B3F2069B52100B83029 /* busLocator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C34A4B522069B52100B83029 /* busLocatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C34A4B6A2069B52200B83029 /* Build configuration list for PBXNativeTarget "busLocatorTests" */;
+			buildPhases = (
+				C34A4B4F2069B52100B83029 /* Sources */,
+				C34A4B502069B52100B83029 /* Frameworks */,
+				C34A4B512069B52100B83029 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C34A4B552069B52100B83029 /* PBXTargetDependency */,
+			);
+			name = busLocatorTests;
+			productName = busLocatorTests;
+			productReference = C34A4B532069B52100B83029 /* busLocatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C34A4B5D2069B52100B83029 /* busLocatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C34A4B6D2069B52200B83029 /* Build configuration list for PBXNativeTarget "busLocatorUITests" */;
+			buildPhases = (
+				C34A4B5A2069B52100B83029 /* Sources */,
+				C34A4B5B2069B52100B83029 /* Frameworks */,
+				C34A4B5C2069B52100B83029 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C34A4B602069B52100B83029 /* PBXTargetDependency */,
+			);
+			name = busLocatorUITests;
+			productName = busLocatorUITests;
+			productReference = C34A4B5E2069B52100B83029 /* busLocatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C34A4B372069B52100B83029 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = isis3510;
+				TargetAttributes = {
+					C34A4B3E2069B52100B83029 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					C34A4B522069B52100B83029 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C34A4B3E2069B52100B83029;
+					};
+					C34A4B5D2069B52100B83029 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C34A4B3E2069B52100B83029;
+					};
+				};
+			};
+			buildConfigurationList = C34A4B3A2069B52100B83029 /* Build configuration list for PBXProject "busLocator" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C34A4B362069B52100B83029;
+			productRefGroup = C34A4B402069B52100B83029 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C34A4B3E2069B52100B83029 /* busLocator */,
+				C34A4B522069B52100B83029 /* busLocatorTests */,
+				C34A4B5D2069B52100B83029 /* busLocatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C34A4B3D2069B52100B83029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34A4B4D2069B52100B83029 /* LaunchScreen.storyboard in Resources */,
+				C34A4B4A2069B52100B83029 /* Assets.xcassets in Resources */,
+				C34A4B482069B52100B83029 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34A4B512069B52100B83029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34A4B5C2069B52100B83029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C34A4B3B2069B52100B83029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34A4B452069B52100B83029 /* ViewController.swift in Sources */,
+				C34A4B432069B52100B83029 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34A4B4F2069B52100B83029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34A4B582069B52100B83029 /* busLocatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34A4B5A2069B52100B83029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34A4B632069B52200B83029 /* busLocatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C34A4B552069B52100B83029 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C34A4B3E2069B52100B83029 /* busLocator */;
+			targetProxy = C34A4B542069B52100B83029 /* PBXContainerItemProxy */;
+		};
+		C34A4B602069B52100B83029 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C34A4B3E2069B52100B83029 /* busLocator */;
+			targetProxy = C34A4B5F2069B52100B83029 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C34A4B462069B52100B83029 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C34A4B472069B52100B83029 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C34A4B4B2069B52100B83029 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C34A4B4C2069B52100B83029 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C34A4B652069B52200B83029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C34A4B662069B52200B83029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C34A4B682069B52200B83029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47EDQRP5C9;
+				INFOPLIST_FILE = busLocator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.isis3510.busLocator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C34A4B692069B52200B83029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47EDQRP5C9;
+				INFOPLIST_FILE = busLocator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.isis3510.busLocator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C34A4B6B2069B52200B83029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47EDQRP5C9;
+				INFOPLIST_FILE = busLocatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.isis3510.busLocatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/busLocator.app/busLocator";
+			};
+			name = Debug;
+		};
+		C34A4B6C2069B52200B83029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47EDQRP5C9;
+				INFOPLIST_FILE = busLocatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.isis3510.busLocatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/busLocator.app/busLocator";
+			};
+			name = Release;
+		};
+		C34A4B6E2069B52200B83029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47EDQRP5C9;
+				INFOPLIST_FILE = busLocatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.isis3510.busLocatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = busLocator;
+			};
+			name = Debug;
+		};
+		C34A4B6F2069B52200B83029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47EDQRP5C9;
+				INFOPLIST_FILE = busLocatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.isis3510.busLocatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = busLocator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C34A4B3A2069B52100B83029 /* Build configuration list for PBXProject "busLocator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34A4B652069B52200B83029 /* Debug */,
+				C34A4B662069B52200B83029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C34A4B672069B52200B83029 /* Build configuration list for PBXNativeTarget "busLocator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34A4B682069B52200B83029 /* Debug */,
+				C34A4B692069B52200B83029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C34A4B6A2069B52200B83029 /* Build configuration list for PBXNativeTarget "busLocatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34A4B6B2069B52200B83029 /* Debug */,
+				C34A4B6C2069B52200B83029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C34A4B6D2069B52200B83029 /* Build configuration list for PBXNativeTarget "busLocatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34A4B6E2069B52200B83029 /* Debug */,
+				C34A4B6F2069B52200B83029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C34A4B372069B52100B83029 /* Project object */;
+}
