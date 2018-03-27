@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86D3E2B36A9A834800043D27 /* Pods_busLocator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00277C9B0EF68892E23D13B2 /* Pods_busLocator.framework */; };
+		8A4BAD03EC09C459A6C76B18 /* Pods_busLocatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB989A58015CDE98FA2FBBB /* Pods_busLocatorUITests.framework */; };
 		C34A4B432069B52100B83029 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34A4B422069B52100B83029 /* AppDelegate.swift */; };
 		C34A4B452069B52100B83029 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34A4B442069B52100B83029 /* ViewController.swift */; };
 		C34A4B482069B52100B83029 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C34A4B462069B52100B83029 /* Main.storyboard */; };
@@ -14,6 +16,10 @@
 		C34A4B4D2069B52100B83029 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C34A4B4B2069B52100B83029 /* LaunchScreen.storyboard */; };
 		C34A4B582069B52100B83029 /* busLocatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34A4B572069B52100B83029 /* busLocatorTests.swift */; };
 		C34A4B632069B52200B83029 /* busLocatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34A4B622069B52200B83029 /* busLocatorUITests.swift */; };
+		C34A4B722069C1D000B83029 /* Bus.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34A4B712069C1D000B83029 /* Bus.swift */; };
+		C34A4B742069CF1300B83029 /* BusStopsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34A4B732069CF1300B83029 /* BusStopsViewController.swift */; };
+		C34A4B762069D9E100B83029 /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34A4B752069D9E100B83029 /* Stop.swift */; };
+		CFA53979082A5F94EA82F3B6 /* Pods_busLocatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC8B91742D5579526C1B87B /* Pods_busLocatorTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00277C9B0EF68892E23D13B2 /* Pods_busLocator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_busLocator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		188694F80A74B22CFFDDDD44 /* Pods-busLocator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-busLocator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-busLocator/Pods-busLocator.debug.xcconfig"; sourceTree = "<group>"; };
+		312F31F96870D756E06B87F2 /* Pods-busLocatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-busLocatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-busLocatorTests/Pods-busLocatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		4E88A0D31D27EA3D028E2DD2 /* Pods-busLocatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-busLocatorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-busLocatorUITests/Pods-busLocatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		51EAA86F66E2633650A645F8 /* Pods-busLocator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-busLocator.release.xcconfig"; path = "Pods/Target Support Files/Pods-busLocator/Pods-busLocator.release.xcconfig"; sourceTree = "<group>"; };
+		6DB989A58015CDE98FA2FBBB /* Pods_busLocatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_busLocatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FC8B91742D5579526C1B87B /* Pods_busLocatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_busLocatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C34A4B3F2069B52100B83029 /* busLocator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = busLocator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C34A4B422069B52100B83029 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C34A4B442069B52100B83029 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,11 @@
 		C34A4B5E2069B52100B83029 /* busLocatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = busLocatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C34A4B622069B52200B83029 /* busLocatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = busLocatorUITests.swift; sourceTree = "<group>"; };
 		C34A4B642069B52200B83029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C34A4B712069C1D000B83029 /* Bus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bus.swift; sourceTree = "<group>"; };
+		C34A4B732069CF1300B83029 /* BusStopsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStopsViewController.swift; sourceTree = "<group>"; };
+		C34A4B752069D9E100B83029 /* Stop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
+		C923C71D1E1A6C295FEA5A6B /* Pods-busLocatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-busLocatorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-busLocatorUITests/Pods-busLocatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB691387FCFF7C6201E54751 /* Pods-busLocatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-busLocatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-busLocatorTests/Pods-busLocatorTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86D3E2B36A9A834800043D27 /* Pods_busLocator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFA53979082A5F94EA82F3B6 /* Pods_busLocatorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +88,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A4BAD03EC09C459A6C76B18 /* Pods_busLocatorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		401D1B3F0589202C0DEC72AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				188694F80A74B22CFFDDDD44 /* Pods-busLocator.debug.xcconfig */,
+				51EAA86F66E2633650A645F8 /* Pods-busLocator.release.xcconfig */,
+				DB691387FCFF7C6201E54751 /* Pods-busLocatorTests.debug.xcconfig */,
+				312F31F96870D756E06B87F2 /* Pods-busLocatorTests.release.xcconfig */,
+				C923C71D1E1A6C295FEA5A6B /* Pods-busLocatorUITests.debug.xcconfig */,
+				4E88A0D31D27EA3D028E2DD2 /* Pods-busLocatorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C34A4B362069B52100B83029 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +115,8 @@
 				C34A4B562069B52100B83029 /* busLocatorTests */,
 				C34A4B612069B52200B83029 /* busLocatorUITests */,
 				C34A4B402069B52100B83029 /* Products */,
+				401D1B3F0589202C0DEC72AA /* Pods */,
+				E871B7D4EBC04DF5C257EC67 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +133,10 @@
 		C34A4B412069B52100B83029 /* busLocator */ = {
 			isa = PBXGroup;
 			children = (
+				C34A4B702069C1A700B83029 /* Entities */,
 				C34A4B422069B52100B83029 /* AppDelegate.swift */,
 				C34A4B442069B52100B83029 /* ViewController.swift */,
+				C34A4B732069CF1300B83029 /* BusStopsViewController.swift */,
 				C34A4B462069B52100B83029 /* Main.storyboard */,
 				C34A4B492069B52100B83029 /* Assets.xcassets */,
 				C34A4B4B2069B52100B83029 /* LaunchScreen.storyboard */,
@@ -125,6 +163,25 @@
 			path = busLocatorUITests;
 			sourceTree = "<group>";
 		};
+		C34A4B702069C1A700B83029 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				C34A4B712069C1D000B83029 /* Bus.swift */,
+				C34A4B752069D9E100B83029 /* Stop.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		E871B7D4EBC04DF5C257EC67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00277C9B0EF68892E23D13B2 /* Pods_busLocator.framework */,
+				7FC8B91742D5579526C1B87B /* Pods_busLocatorTests.framework */,
+				6DB989A58015CDE98FA2FBBB /* Pods_busLocatorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C34A4B672069B52200B83029 /* Build configuration list for PBXNativeTarget "busLocator" */;
 			buildPhases = (
+				D55933C4C54EFA53A97140B2 /* [CP] Check Pods Manifest.lock */,
 				C34A4B3B2069B52100B83029 /* Sources */,
 				C34A4B3C2069B52100B83029 /* Frameworks */,
 				C34A4B3D2069B52100B83029 /* Resources */,
+				0E9151033EC20D261D2F5B03 /* [CP] Embed Pods Frameworks */,
+				77F1C0B360492F8A5E26FDDC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C34A4B6A2069B52200B83029 /* Build configuration list for PBXNativeTarget "busLocatorTests" */;
 			buildPhases = (
+				8A6933E7A148467DB98BF639 /* [CP] Check Pods Manifest.lock */,
 				C34A4B4F2069B52100B83029 /* Sources */,
 				C34A4B502069B52100B83029 /* Frameworks */,
 				C34A4B512069B52100B83029 /* Resources */,
+				400A8569A3E4B51864B01F23 /* [CP] Embed Pods Frameworks */,
+				3C1D2EF7EB22A463A23B20DC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C34A4B6D2069B52200B83029 /* Build configuration list for PBXNativeTarget "busLocatorUITests" */;
 			buildPhases = (
+				B183C31B2223FF813722D2C3 /* [CP] Check Pods Manifest.lock */,
 				C34A4B5A2069B52100B83029 /* Sources */,
 				C34A4B5B2069B52100B83029 /* Frameworks */,
 				C34A4B5C2069B52100B83029 /* Resources */,
+				BCDD7AA5861AD9F42EDB4666 /* [CP] Embed Pods Frameworks */,
+				02D7B720988A61532C7F90BE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,11 +320,167 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02D7B720988A61532C7F90BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-busLocatorUITests/Pods-busLocatorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0E9151033EC20D261D2F5B03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-busLocator/Pods-busLocator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-busLocator/Pods-busLocator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C1D2EF7EB22A463A23B20DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-busLocatorTests/Pods-busLocatorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		400A8569A3E4B51864B01F23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-busLocatorTests/Pods-busLocatorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77F1C0B360492F8A5E26FDDC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-busLocator/Pods-busLocator-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-busLocator/Pods-busLocator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A6933E7A148467DB98BF639 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-busLocatorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B183C31B2223FF813722D2C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-busLocatorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCDD7AA5861AD9F42EDB4666 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-busLocatorUITests/Pods-busLocatorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D55933C4C54EFA53A97140B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-busLocator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C34A4B3B2069B52100B83029 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C34A4B722069C1D000B83029 /* Bus.swift in Sources */,
+				C34A4B742069CF1300B83029 /* BusStopsViewController.swift in Sources */,
+				C34A4B762069D9E100B83029 /* Stop.swift in Sources */,
 				C34A4B452069B52100B83029 /* ViewController.swift in Sources */,
 				C34A4B432069B52100B83029 /* AppDelegate.swift in Sources */,
 			);
@@ -424,6 +646,7 @@
 		};
 		C34A4B682069B52200B83029 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 188694F80A74B22CFFDDDD44 /* Pods-busLocator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +662,7 @@
 		};
 		C34A4B692069B52200B83029 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51EAA86F66E2633650A645F8 /* Pods-busLocator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +678,7 @@
 		};
 		C34A4B6B2069B52200B83029 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB691387FCFF7C6201E54751 /* Pods-busLocatorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +696,7 @@
 		};
 		C34A4B6C2069B52200B83029 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 312F31F96870D756E06B87F2 /* Pods-busLocatorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +714,7 @@
 		};
 		C34A4B6E2069B52200B83029 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C923C71D1E1A6C295FEA5A6B /* Pods-busLocatorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +731,7 @@
 		};
 		C34A4B6F2069B52200B83029 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E88A0D31D27EA3D028E2DD2 /* Pods-busLocatorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

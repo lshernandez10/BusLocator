@@ -1,0 +1,6 @@
+framework module Pods_busLocatorUITests {
+  umbrella header "Pods-busLocatorUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
