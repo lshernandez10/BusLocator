@@ -8,6 +8,7 @@ target 'busLocator' do
   # Pods for busLocator
   pod 'AFNetworking', '~> 3.0'
   pod 'GoogleMaps'
+  pod 'Alamofire'
 
   target 'busLocatorTests' do
     inherit! :search_paths

@@ -46,6 +46,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 let path = stopUrl.split(separator: "/")[3]
                 manager.get("/bins/\(path)", parameters: nil, progress: { (progress) in }, success: { (task: URLSessionDataTask, response) in let dicResponse: NSDictionary = response! as! NSDictionary
                     
+                    print("Stoppp: \(dicResponse)")
+
                     var stops : [Stop] = [Stop]()
                     for item in dicResponse["stops"]! as! NSArray {
                         
