@@ -11,6 +11,7 @@ import GoogleMaps
 import CoreLocation
 import Alamofire
 
+//Esto es para crear un Json a partir de la respuesta del API de Google para pintar la dirección
 struct GoogleResponse: Codable {
     let routes: [Routes]
 }
@@ -59,32 +60,54 @@ class BusStopsViewController: UIViewController, CLLocationManagerDelegate {
         super.viewDidLoad()
 
         navBarTittle.title = busSeleccionado.name
+        let randomNumber = Int(arc4random_uniform(UInt32(busSeleccionado.stops.count)))
 
         for (index, item) in busSeleccionado.stops.enumerated() {
             let stop:Stop = item as! Stop
-            showMarker(lat: stop.lat, long: stop.long)
+            
+            //Se elige un número al azar, el cual será el punto donde actualmente va la ruta
+            if randomNumber == index {
+                showMarker(lat: stop.lat, long: stop.long, currentLocation: true)
+            } else {
+                if index == 0 || index == busSeleccionado.stops.count - 1 {
+                    showMarker(lat: stop.lat, long: stop.long, currentLocation: false)
+                }
+            }
+            
+            //Esto es para pintar la ruta recorrida hasta el momento de color verde y el resto de color rojo
+            var color:String
+            if index < randomNumber {
+                color = "Verde"
+            } else {
+                color = "Rojo"
+            }
+            
+            //Si el siguiente punto existe, pinto la ruta
             if index+1 < busSeleccionado.stops.count {
                 let nextStop = busSeleccionado.stops[index+1] as! Stop
                 let stop:Stop = item as! Stop
-                showMarker(lat: stop.lat, long: stop.long)
                 let origin = CLLocation(latitude: stop.lat, longitude: stop.long)
                 let destination = CLLocation(latitude: nextStop.lat, longitude: nextStop.long)
-                drawPath(startLocation: origin, endLocation: destination)
-            } 
+                drawPath(startLocation: origin, endLocation: destination, color: color)
+            }
             
         }
     }
     
-    func showMarker(lat: Double, long: Double){
+    func showMarker(lat: Double, long: Double, currentLocation:Bool){
         let camera = GMSCameraPosition.camera(withLatitude: lat, longitude: long, zoom: 14.0)
         mapView.camera = camera
-        
         let marker = GMSMarker()
         marker.position = camera.target
+        
+        if currentLocation {
+            marker.title = "Ubicación Actual"
+        }
         marker.map = mapView
+
     }
     
-    func drawPath(startLocation: CLLocation, endLocation: CLLocation){
+    func drawPath(startLocation: CLLocation, endLocation: CLLocation, color: String){
         let origin = "\(startLocation.coordinate.latitude),\(startLocation.coordinate.longitude)"
         let destination = "\(endLocation.coordinate.latitude),\(endLocation.coordinate.longitude)"
         
@@ -108,7 +131,12 @@ class BusStopsViewController: UIViewController, CLLocationManagerDelegate {
                         let path = GMSPath.init(fromEncodedPath: points)
                         let polyline = GMSPolyline.init(path: path)
                         polyline.strokeWidth = 4
-                        polyline.strokeColor = UIColor.red
+                        if color == "Verde" {
+                            polyline.strokeColor = UIColor.green
+
+                        } else {
+                            polyline.strokeColor = UIColor.red
+                        }
                         polyline.map = self.mapView
                     }
                 }

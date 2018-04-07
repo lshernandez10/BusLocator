@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="CW9-bb-lPa">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BusCell" rowHeight="98" id="ja4-MR-DMl">
@@ -52,13 +52,23 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="prL-w9-J7x">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <items>
+                                    <navigationItem title="Bus Locator" id="8AE-7H-2PE"/>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="CW9-bb-lPa" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="KP8-s0-9PZ"/>
-                            <constraint firstItem="CW9-bb-lPa" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="bXT-J5-LgF"/>
-                            <constraint firstItem="CW9-bb-lPa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="pWs-MR-jy9"/>
-                            <constraint firstItem="CW9-bb-lPa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="v4Z-pK-yn5"/>
+                            <constraint firstItem="CW9-bb-lPa" firstAttribute="top" secondItem="prL-w9-J7x" secondAttribute="bottom" id="BaW-G1-xOs"/>
+                            <constraint firstItem="CW9-bb-lPa" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="EVf-Oj-MnB"/>
+                            <constraint firstItem="CW9-bb-lPa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="TK7-Uq-Kio"/>
+                            <constraint firstItem="CW9-bb-lPa" firstAttribute="top" secondItem="prL-w9-J7x" secondAttribute="bottom" id="lGH-vS-BPw"/>
+                            <constraint firstItem="prL-w9-J7x" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="orG-NJ-tej"/>
+                            <constraint firstItem="prL-w9-J7x" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="r3g-vB-W9F"/>
+                            <constraint firstItem="prL-w9-J7x" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="tK0-DL-pGj"/>
+                            <constraint firstItem="CW9-bb-lPa" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="yZP-lc-o9T"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -99,10 +109,18 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="tYz-gC-mZW" firstAttribute="bottom" secondItem="yaP-A8-uZF" secondAttribute="bottom" id="GHE-i3-mhn"/>
+                            <constraint firstItem="tYz-gC-mZW" firstAttribute="trailing" secondItem="yaP-A8-uZF" secondAttribute="trailing" id="HzX-5y-TTJ"/>
+                            <constraint firstItem="wEE-D0-nKs" firstAttribute="leading" secondItem="yaP-A8-uZF" secondAttribute="leading" id="IsS-L1-MG9"/>
+                            <constraint firstItem="tYz-gC-mZW" firstAttribute="top" secondItem="wEE-D0-nKs" secondAttribute="bottom" id="JH8-UY-bIO"/>
                             <constraint firstItem="tYz-gC-mZW" firstAttribute="trailing" secondItem="wEE-D0-nKs" secondAttribute="trailing" id="KnL-gJ-GUB"/>
                             <constraint firstItem="tYz-gC-mZW" firstAttribute="leading" secondItem="A61-b9-HaD" secondAttribute="leading" id="Nj1-NT-2VV"/>
                             <constraint firstItem="tYz-gC-mZW" firstAttribute="top" secondItem="wEE-D0-nKs" secondAttribute="bottom" id="OVS-YL-YBP"/>
+                            <constraint firstItem="wEE-D0-nKs" firstAttribute="top" secondItem="yaP-A8-uZF" secondAttribute="top" id="WGa-dz-YO1"/>
+                            <constraint firstItem="tYz-gC-mZW" firstAttribute="leading" secondItem="yaP-A8-uZF" secondAttribute="leading" id="Wk4-xE-pae"/>
                             <constraint firstAttribute="trailing" secondItem="tYz-gC-mZW" secondAttribute="trailing" id="ccA-a8-5VA"/>
+                            <constraint firstItem="tYz-gC-mZW" firstAttribute="bottom" secondItem="yaP-A8-uZF" secondAttribute="bottom" id="jEX-iS-wqN"/>
+                            <constraint firstItem="wEE-D0-nKs" firstAttribute="trailing" secondItem="yaP-A8-uZF" secondAttribute="trailing" id="pYC-CG-eTH"/>
+                            <constraint firstItem="tYz-gC-mZW" firstAttribute="top" secondItem="wEE-D0-nKs" secondAttribute="bottom" id="plp-Bi-2Rl"/>
                             <constraint firstItem="tYz-gC-mZW" firstAttribute="top" secondItem="A61-b9-HaD" secondAttribute="top" constant="64" id="wjN-Dx-bMu"/>
                             <constraint firstItem="tYz-gC-mZW" firstAttribute="leading" secondItem="wEE-D0-nKs" secondAttribute="leading" id="zKJ-jZ-gJM"/>
                         </constraints>
